@@ -1,7 +1,3 @@
-# c-cin-input-redirection
-Redirect std::cin to read from file, instead of standard input device
-
-```c++
 #include <iostream>
 
 #define DEBUG true
@@ -24,4 +20,3 @@ int main() {
     std::cout << hello << std::endl;
     return 0;
 }
-```
